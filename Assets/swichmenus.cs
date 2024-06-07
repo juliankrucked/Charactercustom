@@ -8,4 +8,11 @@ public class swichmenus : MonoBehaviour
     public void ToStart(){
         SceneManager.LoadScene("MainMenu",LoadSceneMode.Single);
     }
+    
+    public void Tocstm(){
+        SceneManager.LoadScene("CharacterCstm",LoadSceneMode.Single);
+    }
+    public void ExitGame(){
+        Application.Quit();
+    }
 }
