@@ -11,6 +11,6 @@ public class vards : MonoBehaviour {
 
     public void uzglabaTekstu(){
         teksts = name_text.GetComponent<Text>().text;
-        exitingname.GetComponent<Text>().text = "Hi there, they call me "+ teksts.ToUpper() +" and I am Rouge!";
+        exitingname.GetComponent<Text>().text = "Hi there, they call me "+ teksts.ToUpper() +" and I am Rogue!";
     }
 }
